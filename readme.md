@@ -42,7 +42,7 @@ The dataset consists of 400 lateral cephalogram images, curated through a collab
 - **Decoder**: Upsampling blocks that increase spatial resolution, incorporating skip connections from the encoder.
 - **Output Layer**: Concludes with a convolutional layer using a sigmoid activation function for pixel-wise classification.
 - 
-![unet-Overlap (1)](https://github.com/anirudhashastri/CVS_Staging/assets/158777380/284b2595-9c59-4d3e-bae8-f4ab97fa03a3)
+![unet-Overlap (1)](https://github.com/anirudhashastri/CVS_Staging/Results/unet-Overlap.png)
 ### Implementation
 
 - **Software and Tools**: TensorFlow 2.10, Keras, and Python 3.10. Training scripts executed in Jupyter Notebooks on a Windows system.
