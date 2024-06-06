@@ -33,6 +33,8 @@ The dataset consists of 400 lateral cephalogram images, curated through a collab
 - **Architecture**: Includes a Flatten layer, followed by Dense layers with ReLU activation, and an output layer with a linear activation function.
 - **Output**: Designed for regression or multi-class classification of 38 different classes.
 
+![Unet-predicted side by side (1)](https://github.com/anirudhashastri/CVS_Staging/assets/158777380/fb011522-2a93-4f6c-be54-f52a11167f1a)
+
 #### U-Net
 
 - **Architecture**: Symmetrical structure with an encoder (contracting path) and a decoder (expanding path) connected by skip connections.
@@ -62,8 +64,5 @@ The dataset consists of 400 lateral cephalogram images, curated through a collab
 
 The U-Net model excels in general mask localization for image segmentation, while InceptionResNetV2 shows potential for precise localization but requires a larger dataset for improved performance. Future work should focus on expanding the dataset to enhance the InceptionResNetV2 model's precision and robustness.
 
-## References
 
-1. Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015.
-2. Szegedy, C., Ioffe, S., Vanhoucke, V., & Alemi, A. (2016). Inception-v2, Inception-ResNet and the Impact of Residual Connections on Learning.
 
