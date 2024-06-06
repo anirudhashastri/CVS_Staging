@@ -33,7 +33,7 @@ The dataset consists of 400 lateral cephalogram images, curated through a collab
 - **Architecture**: Includes a Flatten layer, followed by Dense layers with ReLU activation, and an output layer with a linear activation function.
 - **Output**: Designed for regression or multi-class classification of 38 different classes.
 
-![Unet-predicted side by side (1)](https://github.com/anirudhashastri/CVS_Staging/Results/Inception-prediction.png)
+![Unet-predicted side by side (1)](https://github.com/anirudhashastri/CVS_Staging/blob/main/Results/Inception-prediction.png))
 
 #### U-Net
 
@@ -42,7 +42,7 @@ The dataset consists of 400 lateral cephalogram images, curated through a collab
 - **Decoder**: Upsampling blocks that increase spatial resolution, incorporating skip connections from the encoder.
 - **Output Layer**: Concludes with a convolutional layer using a sigmoid activation function for pixel-wise classification.
 - 
-![unet-Overlap (1)](https://github.com/anirudhashastri/CVS_Staging/Results/unet-Overlap.png)
+![unet-Overlap (1)](https://github.com/anirudhashastri/CVS_Staging/blob/main/Results/unet-Overlap.png)
 ### Implementation
 
 - **Software and Tools**: TensorFlow 2.10, Keras, and Python 3.10. Training scripts executed in Jupyter Notebooks on a Windows system.
