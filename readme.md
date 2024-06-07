@@ -21,7 +21,7 @@ Bone age determination is a crucial aspect of assessing skeletal maturation. Tra
 
 ## Dataset
 
-The dataset consists of 400 lateral cephalogram images, curated by me through a collaboration between my department and the university's dental college. These images are annotated with 19 specific points on the cervical vertebrae, with coordinates stored in a corresponding CSV file as can be seen in the [Annotated Data](/CVS_Staging/blob/main/Data/Data/Annotated-data)  . Data preprocessing involved extracting the vertebral column from each image and enhancing image contrast using Adaptive Histogram Equalization.
+The dataset consists of 400 lateral cephalogram images, curated by me through a collaboration between my department and the university's dental college. These images are annotated with 19 specific points on the cervical vertebrae, with coordinates stored in a corresponding CSV [Train](https://github.com/anirudhashastri/CVS_Staging/blob/main/Data/train_data.csv) [Test](https://github.com/anirudhashastri/CVS_Staging/blob/main/Data/test_data.csv) file as can be seen in the [Annotated Data](https://github.com/anirudhashastri/CVS_Staging/tree/main/Data/Annotated-Data)  . Data preprocessing involved extracting the vertebral column from each image and enhancing image contrast using Adaptive Histogram Equalization.
 
 ## Models and Implementation
 
