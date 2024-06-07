@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to enhance bone age prediction using deep learning techniques with a focus on cervical vertebrae staging (CVS). By employing two models, U-Net and InceptionResNetV2, this study seeks to determine which model offers superior accuracy and efficiency in the context of CVS. The project's primary goal is to improve safety and reduce radiographic exposure in bone age prediction.
+This research project aims to enhance bone age prediction using deep learning techniques with a focus on cervical vertebrae staging (CVS). By employing two models, U-Net and InceptionResNetV2, this study seeks to determine which model offers superior accuracy and efficiency in the context of CVS staging. The project's primary goal is to improve safety and reduce radiographic exposure in bone age prediction by finding the best approach for CVS staging.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ Bone age determination is a crucial aspect of assessing skeletal maturation. Tra
 
 ## Dataset
 
-The dataset consists of 400 lateral cephalogram images, curated through a collaboration between my department and the university's dental college. These images are annotated with 19 specific points on the cervical vertebrae, with coordinates stored in a corresponding CSV file. Data preprocessing involved extracting the vertebral column from each image and enhancing image contrast using Adaptive Histogram Equalization.
+The dataset consists of 400 lateral cephalogram images, curated by me through a collaboration between my department and the university's dental college. These images are annotated with 19 specific points on the cervical vertebrae, with coordinates stored in a corresponding CSV file as can be seen in the [Annotated Data](/CVS_Staging/blob/main/Data/Data/Annotated-data)  . Data preprocessing involved extracting the vertebral column from each image and enhancing image contrast using Adaptive Histogram Equalization.
 
 ## Models and Implementation
 
