@@ -74,7 +74,8 @@ cd your-repo-name
 ### 2. Packages Required
 Install the required packages using pip:
 
-pip install -r requirements.txt
+ ######
+    pip install -r requirements.txt
 
 ### 3. Link to the Pretrained Model
 Download the pretrained model from this link and place it in the appropriate directory.
