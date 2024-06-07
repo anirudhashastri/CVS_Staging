@@ -67,14 +67,14 @@ To run this project, follow these steps:
 
 Clone the repository to your local machine using the following command:
 
-bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+######
+   git clone https://github.com/anirudhashastri/cvs-staging.git
+   cd your-repo-name
 
 ### 2. Packages Required
 Install the required packages using pip:
 
- ######
+######
     pip install -r requirements.txt
 
 ### 3. Link to the Pretrained Model
