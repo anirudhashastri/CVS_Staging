@@ -41,7 +41,6 @@ The dataset consists of 400 lateral cephalogram images, curated by me through a 
 - **Encoder**: Multiple convolutional blocks with ReLU activation, batch normalization, dropout for regularization, and max pooling.
 - **Decoder**: Upsampling blocks that increase spatial resolution, incorporating skip connections from the encoder.
 - **Output Layer**: Concludes with a convolutional layer using a sigmoid activation function for pixel-wise classification.
-- 
 ![unet-Overlap (1)](https://github.com/anirudhashastri/CVS_Staging/blob/main/Results/unet-Overlap.png)
 ### Implementation
 
