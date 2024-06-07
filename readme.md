@@ -69,22 +69,27 @@ Clone the repository to your local machine using the following command:
 
 ######   
       git clone https://github.com/anirudhashastri/cvs-staging.git
-      cd your-repo-name
 
 ### 2. Packages Required
+Download and install [anaconda](https://www.anaconda.com/download)
 Install the required packages using pip:
 
 ######
-    pip install -r requirements.txt
+    conda env create -f requirements.yml
+or
+Go to the anaconda application and upload the .yml file in your environments tab
 
 ### 3. Link to the Pretrained Model
-Download the pretrained model from this link and place it in the appropriate directory.
+Download the [pretrained Models](https://drive.google.com/drive/folders/1htkTWYttLfAWn--kAW2v6PRjgRgF9OPp?usp=sharing).
 
 ### 4. Change File Paths and Model Paths in the Code
 Update the file paths and model paths in the code to match your local setup. Open the script files and modify the paths where necessary.
 
 ### 5. Sample Data
 The repository includes some sample data for testing purposes. However, due to the confidentiality of healthcare data, the full dataset is not provided. You can run this code with any similar dataset by following the same preprocessing steps.
+
+### 6. Running
+In vs code open any of the files and for python the anacoda enviromnet we created to run the whole file.
 
 ## Conclusion
 
