@@ -12,7 +12,8 @@ This research project aims to enhance bone age prediction using deep learning te
    - [Model Descriptions](#model-descriptions)
    - [Implementation](#implementation)
 4. [Evaluation and Results](#evaluation-and-results)
-5. [Conclusion](#conclusion)
+5. [How to Run the Repository](#how-to-run-the-repository)
+6. [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -57,6 +58,32 @@ The dataset consists of 400 lateral cephalogram images, curated by me through a 
 |------------------|----------------|------|-----------|
 | U-Net            | 85%            | -    | 0.25      |
 | InceptionResNetV2| 75%            | 15.2 | -         |
+
+## How to Run the Repository
+
+To run this project, follow these steps:
+
+### 1. Pull the Repository
+
+Clone the repository to your local machine using the following command:
+
+bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+
+### 2. Packages Required
+Install the required packages using pip:
+
+pip install -r requirements.txt
+
+### 3. Link to the Pretrained Model
+Download the pretrained model from this link and place it in the appropriate directory.
+
+### 4. Change File Paths and Model Paths in the Code
+Update the file paths and model paths in the code to match your local setup. Open the script files and modify the paths where necessary.
+
+### 5. Sample Data
+The repository includes some sample data for testing purposes. However, due to the confidentiality of healthcare data, the full dataset is not provided. You can run this code with any similar dataset by following the same preprocessing steps.
 
 ## Conclusion
 
