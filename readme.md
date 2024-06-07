@@ -67,9 +67,9 @@ To run this project, follow these steps:
 
 Clone the repository to your local machine using the following command:
 
-######
-   git clone https://github.com/anirudhashastri/cvs-staging.git
-   cd your-repo-name
+######   
+      git clone https://github.com/anirudhashastri/cvs-staging.git
+      cd your-repo-name
 
 ### 2. Packages Required
 Install the required packages using pip:
