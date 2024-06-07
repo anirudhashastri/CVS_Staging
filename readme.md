@@ -89,7 +89,17 @@ Update the file paths and model paths in the code to match your local setup. Ope
 The repository includes some sample data for testing purposes. However, due to the confidentiality of healthcare data, the full dataset is not provided. You can run this code with any similar dataset by following the same preprocessing steps.
 
 ### 6. Running
-In vs code open any of the files and for python the anacoda enviromnet we created to run the whole file.
+In VSCode open any of the files and for python the anacoda enviromnet we created to run the whole file.
+#### Training
+- To train on gpu follow [Tensorlfow GPU](https://www.tensorflow.org/install/pip) documentation to set up tensorflow for the GPU
+- Set up all file paths to your local system
+- The csv file needs to follow the same format as the [train_data.csv](https://github.com/anirudhashastri/cvs-staging/blob/main/Data/train_data.csv). In this sample we have 19 points and for each point the X and Y cordinates is in individual colums the number of coulmes will currespont to the number (19*2=38) we need to update in the below instructions.
+- For the Unet model based on number of cordinates in the mask prepocessing step in the code one will have to change the number of points from "38" to the desired number of points.
+
+#### Testing
+- To to run the test code on the GPU we need to have the tensorflow GPU setup.
+- Download the correct model to the correct code [Unet Model](https://drive.google.com/file/d/12hFCywdzS30aS71-RL1Fqcu6U_Lic078/view?usp=sharing) [Inception Model](https://drive.google.com/file/d/1t5YOAYWa9o0JFdi3uL8ZLIF4kqBTtJMF/view?usp=sharing) and set up the paths accordingly.
+
 
 ## Conclusion
 
