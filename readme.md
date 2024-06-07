@@ -74,8 +74,8 @@ Clone the repository to your local machine using the following command:
 Download and install [anaconda](https://www.anaconda.com/download)
 Install the required packages using pip:
 
-######
-    conda env create -f requirements.yml
+###### Create the environment
+    conda env create -f cvs-staging.yaml
 or
 Go to the anaconda application and upload the .yml file in your environments tab
 
