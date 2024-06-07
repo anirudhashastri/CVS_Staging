@@ -13,7 +13,6 @@ This research project aims to enhance bone age prediction using deep learning te
    - [Implementation](#implementation)
 4. [Evaluation and Results](#evaluation-and-results)
 5. [Conclusion](#conclusion)
-6. [References](#references)
 
 ## Introduction
 
